@@ -15,3 +15,7 @@
 ## JS
 
 [JS](js-task/problem/Ej_JS.md): Página dinámica con JavaScript
+
+## JQuery
+
+[JQuery](jquery-task/ej_jquery.md) : JQuery
