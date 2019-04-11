@@ -19,7 +19,7 @@ etiqueta `<script type="text/javascript" src="js/ajax.js" async></script>` en el
 * Retomar el código de tu solución del trabajo de CSS y agregar el archivo `todolist.js` en la carpeta `js`
  y colocar las siguientes etiquetas al final del cuerpo de la página (el orden es importante):
 ```html
-<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous">
 </script>
 <script type="text/javascript" src="js/todolist.js" async></script>
