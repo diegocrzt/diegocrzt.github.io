@@ -19,3 +19,7 @@
 ## JQuery
 
 [JQuery](jquery-task/ej_jquery.md) : JQuery
+
+## Platform
+
+[Platform](platform/lesson/README.md): Plataforma de la Arquitectura Web
