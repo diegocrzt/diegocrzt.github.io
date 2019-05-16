@@ -27,3 +27,7 @@
 ## NodeJS
 
 [NodeJS](nodejs-task/README.md): Backend NodeJS.
+
+## System Design
+
+[System Design](system-design/Ej_Arquitectura.md): Diseño de la arquitectura de un sistema web
