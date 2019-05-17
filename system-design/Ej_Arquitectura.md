@@ -101,3 +101,16 @@ Cualquier modificación por compleja que sea en la interfaz gráfica no afecta a
 
 El back-end esta compuesto por una aplicación NodeJS + express framework y la biblioteca de acceso de datos mongoose, permite definir modelos de datos libremente en JavaScript y guardarlos en una base de datos mongoDB sin tener que preocuparse por los cambios del modelo de datos, está separado en capas, de Modelo de Datos, Lógica y de Negocios y Controlador REST.
 
+### 2. Modelo de datos
+
+Dado que optamos por mongoDB, no es necesario crear relaciones y según lo especificado el modelo de datos implica un esquema como el que sigue:
+
+![Modelo de datos](./modelo_datos.png)
+
+Los documentos de `Rol` y `Foto`, están embebidos en el documento `Modelo`, pero el modelo Usuario si es un recurso independiente.
+
+### 3. Servicios REST necesarios
+
+Los servicios disponibles son los siguientes, clasificados por autenticados y publicos.
+
+![Servicios REST](./rest-services.png)
