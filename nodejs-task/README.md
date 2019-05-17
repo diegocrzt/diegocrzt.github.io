@@ -51,6 +51,6 @@ Las especificaciones de este backend son las que ya conocemos y utilizamos a lo 
 - El código `DEBE` estar en un repositorio github y la evaluación se hará sobre el mismo.
 - El repositorio `DEBE` contener todos los ficheros necesarios para ejecutar la aplicación web, utilizando `npm install` y `npm start`.
 - Es responsabilidad del desarrollador, leer, configurar o instalar las herramientas necesarias para el desarrollo. (nodejs, npm, express, express-body, mongoose, Visual Studio Code, etc.)
-- La información de los estudiantes junto con el enlace al repositorio `DEBEN` ser enviados a más tardar el `lunes 3 de junio de 2019` a las `23:59:59` por medio del siguiente [formulario](https://forms.gle/ALmE1TjfFaiAJK8t8).
+- La información de los estudiantes junto con el enlace al repositorio `DEBEN` ser enviados a más tardar el `domingo 2 de junio de 2019` a las `23:59:59` por medio del siguiente [formulario](https://forms.gle/ALmE1TjfFaiAJK8t8).
 
 De aquí en más ¡éxitos! ;-)
