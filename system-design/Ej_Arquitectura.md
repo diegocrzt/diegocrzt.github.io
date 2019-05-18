@@ -84,8 +84,8 @@ Se proponen los siguientes servidores en la arquitectura:
 
 * Un servidor Web Apache que sirva el front end de la aplicación web vía HTTPS en el puerto seguro 443.
 * Un servidor de balanceo de carga Nginx que sirva la API REST para los demas clientes, también en el puerto HTTPS 443.
-* Un par de servidors usando NodeJS, cada uno sirviendo la misa API REST que consumen los clientes web, móviles y los usuarios privados de la sucursal, escuchando en el puerto 3000 (o cualquier otro puerto) en http plano. Se puede escalar fácilmente agregando un servidor más o más recursos a cada uno de los servidores, lo que sea más barato en el momento.
-* Un servidor de bases de datos Mongo DB, que se adapte rápido a los cambios del negocio, usando bases de datos orientadas a documentos.
+* Un par de servidores usando NodeJS, cada uno sirviendo la misma API REST que consumen los clientes web, móviles y los usuarios privados de la sucursal, escuchando en el puerto 3000 (o cualquier otro puerto) en http plano. Se puede escalar fácilmente agregando un servidor más (escalamiento vertical) o más recursos (escalamiento horizonal) a cada uno de los servidores, lo que sea más barato en el momento.
+* Un servidor de bases de datos no relacional  Mongo DB, que se adapte rápido a los cambios del negocio, usando bases de datos orientadas a documentos.
 
 #### Front-End
 
